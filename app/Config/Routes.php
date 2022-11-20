@@ -39,6 +39,8 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('products', 'ProductController::index');
 
+service('auth')->routes($routes);
+
 
 /*
  * --------------------------------------------------------------------

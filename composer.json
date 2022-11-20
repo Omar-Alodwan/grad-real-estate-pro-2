@@ -1,4 +1,6 @@
 {
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "codeigniter4/framework",
     "type": "project",
     "description": "The CodeIgniter framework v4",
@@ -12,7 +14,8 @@
         "ext-mbstring": "*",
         "kint-php/kint": "^4.2",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "codeigniter4/shield": "^1.0@beta"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.5",
@@ -60,5 +63,6 @@
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/CodeIgniter4",
         "slack": "https://codeigniterchat.slack.com"
-    }
+    },
+    "minimum-stability": "beta"
 }

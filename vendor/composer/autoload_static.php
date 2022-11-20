@@ -16,6 +16,8 @@ class ComposerStaticInitf566d8719f5986f22549bde70690c4c5
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '3f21dc9c7942b4b08e22c921761edb59' => __DIR__ . '/..' . '/codeigniter4/shield/src/Helpers/auth_helper.php',
+        'd769f6a3ea016e6093cedc85aa1e205d' => __DIR__ . '/..' . '/codeigniter4/shield/src/Helpers/email_helper.php',
         '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
@@ -78,6 +80,8 @@ class ComposerStaticInitf566d8719f5986f22549bde70690c4c5
             'Composer\\XdebugHandler\\' => 23,
             'Composer\\Semver\\' => 16,
             'Composer\\Pcre\\' => 14,
+            'CodeIgniter\\Shield\\' => 19,
+            'CodeIgniter\\Settings\\' => 21,
             'CodeIgniter\\CodingStandard\\' => 27,
             'CodeIgniter\\' => 12,
         ),
@@ -219,6 +223,14 @@ class ComposerStaticInitf566d8719f5986f22549bde70690c4c5
         'Composer\\Pcre\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/pcre/src',
+        ),
+        'CodeIgniter\\Shield\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeigniter4/shield/src',
+        ),
+        'CodeIgniter\\Settings\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeigniter4/settings/src',
         ),
         'CodeIgniter\\CodingStandard\\' => 
         array (
